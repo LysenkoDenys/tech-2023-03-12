@@ -1,14 +1,21 @@
-import React from "react";
+import { useState } from "react";
+import Home from "../pages/Home";
 
 const Intro = () => {
+  const [popupIsOpen, setPopupIsOpen] = useState(true);
+  function introHandler() {
+    setPopupIsOpen(false);
+  }
   return (
     <div className="card">
-      <h2>Welcome to magic quests</h2>
       <div className="actions">
-        <button id="btn-1" className="btn">
+        <h1>Hello, technical stuff!</h1>
+        <h2>Welcome to magic quests!</h2>
+        <button id="btn-1" className="btn" onClick={introHandler}>
           Start
         </button>
       </div>
+      {popupIsOpen || <Home />}
     </div>
   );
 };

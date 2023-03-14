@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Calibri", sans-serif;
   margin: 3rem;
   background-color: #dfdfdf;
 }
@@ -18,50 +18,25 @@ h2 {
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 1);
   padding: 1rem;
-  width: 20rem;
+  width: 30rem;
+  margin: auto;
 }
 
 .actions {
-  text-align: right;
-}
-
-.modal {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  background-color: white;
-  padding: 1rem;
   text-align: center;
-  width: 30rem;
-  z-index: 10;
-  position: fixed;
-  top: 20vh;
-  left: calc(50% - 15rem);
-}
-
-.backdrop {
-  position: fixed;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.75);
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
 }
 
 .btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   outline: none;
   cursor: pointer;
-  width: 150px;
+  width: 100px;
   height: 50px;
   background-image: linear-gradient(to top, #d8d9db 0%, #fff 80%, #fdfdfd 100%);
   border-radius: 10px;
   border: 1px solid #8f9092;
   transition: all 0.2s ease;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   color: #606060;
   text-shadow: 0 1px #fff;
