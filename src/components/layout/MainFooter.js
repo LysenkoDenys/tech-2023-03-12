@@ -3,7 +3,7 @@ import classes from "./MainFooter.module.css";
 
 const MainFooter = () => {
   return (
-    <footer className={classes.header}>
+    <footer className={classes.footer}>
       <div className={classes.logo}>
         Made with best regards by Lysenko Denys 2023
       </div>

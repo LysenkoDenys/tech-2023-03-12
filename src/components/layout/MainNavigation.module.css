@@ -2,10 +2,11 @@
   width: 100%;
   height: 5rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #77002e;
-  padding: 0 10%;
+  background: url("../../images/header.jpg") 0 0 round;
+  padding: 0 5%;
   position: sticky;
   top: 0px;
   z-index: 50;
@@ -32,7 +33,7 @@
 .header a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #fcb8d2;
+  color: #ffffff;
 }
 
 .header a:hover,
