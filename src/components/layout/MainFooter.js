@@ -7,7 +7,10 @@ const MainFooter = () => {
       <div className={classes.logo}>
         Made with best regards by Lysenko Denys 2023
       </div>
-      <button>Call the batman</button>
+      <div class="uiverse">
+        <span class="tooltip">uiverse.io</span>
+        <span>Tooltip</span>
+      </div>
     </footer>
   );
 };

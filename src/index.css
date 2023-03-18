@@ -59,6 +59,7 @@ h2 {
 
 .pic-1 {
   height: 10rem;
+  cursor: pointer;
 }
 .pic-1:active {
   transition: ease-in-out;
@@ -67,4 +68,14 @@ h2 {
 
 article {
   padding: 1%;
+}
+
+.section {
+  display: flex;
+}
+
+.block:hover {
+  box-shadow: 2px 2px 2px #333333;
+  border-radius: 5px;
+  background-color: #f3f4f5;
 }
