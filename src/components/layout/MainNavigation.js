@@ -19,7 +19,7 @@ const MainNavigation = () => {
             <Link to="/carts">Carts</Link>
           </li>
           <li>
-            <Link to="/reaches">Reaches</Link>
+            <Link to="/others">Others</Link>
           </li>
         </ul>
       </nav>

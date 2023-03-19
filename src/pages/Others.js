@@ -1,7 +1,7 @@
 import React from "react";
 
-const Reaches = () => {
+const Others = () => {
   return <div>Reaches</div>;
 };
 
-export default Reaches;
+export default Others;
