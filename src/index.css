@@ -6,7 +6,7 @@ body {
   font-family: "Calibri", sans-serif;
   margin: 3rem;
   /* background-color: #dfdfdf; */
-  background: url("./images/bg.png");
+  background: url("./images/bg-01.png");
 }
 
 h1,
@@ -75,75 +75,13 @@ article {
   display: flex;
 }
 
+.block {
+  background-color: #d6d7da;
+  border-radius: 5px;
+  margin: 0px 0px 5px 0px;
+}
 .block:hover {
   box-shadow: 2px 2px 2px #333333;
   border-radius: 5px;
   background-color: #f3f4f5;
 }
-
-/* button======================================================= */
-.universe {
-  position: relative;
-  background: #cecccc;
-  color: #000;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
-  width: 150px;
-  height: 40px;
-  font-size: 17px;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background: #ffffff;
-  color: #ffffff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background: #ffffff;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.universe:hover .tooltip {
-  top: -45px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-svg:hover span,
-svg:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.universe:hover,
-.universe:hover .tooltip,
-.universe:hover .tooltip::before {
-  background: linear-gradient(320deg, rgb(3, 77, 146), rgb(0, 60, 255));
-  color: #ffffff;
-}
-/* button======================================================= */

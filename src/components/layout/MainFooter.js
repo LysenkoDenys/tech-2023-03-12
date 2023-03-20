@@ -7,8 +7,8 @@ const MainFooter = () => {
       <div className={classes.logo}>
         Made with best regards by Lysenko Denys 2023
       </div>
-      <div class="universe">
-        <span class="tooltip">lysenkoden@gmail.com</span>
+      <div className={classes.universe}>
+        <span className={classes.tooltip}>lysenkoden@gmail.com</span>
         <span>Call the BATMAN</span>
       </div>
     </footer>
