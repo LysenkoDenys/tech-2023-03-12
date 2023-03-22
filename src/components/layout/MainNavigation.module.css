@@ -17,6 +17,7 @@
   padding: 0 5%;
   position: sticky;
   top: 0px;
+  box-shadow: 2px 2px 2px #333333;
   z-index: 50;
 }
 
@@ -31,8 +32,13 @@
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: baseline;
   flex-wrap: wrap;
+  align-items: baseline;
+}
+@media (max-width: 768px) {
+  .header ul {
+    display: none;
+  }
 }
 
 .header li {
@@ -45,27 +51,11 @@
   color: #000000;
 }
 
-@media (max-width: 479px) {
-  .header a,
-  .header li {
-    font-size: 0.8rem;
-    margin-left: 0.5rem;
-  }
-}
-
 .header a:hover,
 .header a:active,
 .header a.active {
   color: white;
   transition: 0.3s ease;
-}
-
-.badge {
-  background-color: #cc2062;
-  color: white;
-  border-radius: 12px;
-  padding: 0 1rem;
-  margin-left: 0.5rem;
 }
 
 /* burger++++++++++++++++++++++++++++ */

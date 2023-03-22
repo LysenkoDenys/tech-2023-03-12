@@ -21,7 +21,7 @@ const Home = () => {
           <img
             className="pic-1"
             src={require("../images/h-01.png")}
-            alt="image not found"
+            alt="images not found"
           />
         </article>
       </div>
@@ -42,7 +42,7 @@ const Home = () => {
           <img
             className="pic-1"
             src={require("../images/h-02.png")}
-            alt="image not found"
+            alt="images not found"
           />
         </article>
       </div>
