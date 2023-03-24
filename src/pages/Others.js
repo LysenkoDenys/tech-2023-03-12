@@ -9,9 +9,8 @@ const Others = () => {
       </div>
       <div>
         <article>
-          <p>
-            Special thanks to Kostyak Julia for inspirement of building this
-            site.
+          <p className="text-xl font-bold">
+            Special thanks to Kostyak Julia for inspire me to build this site.
           </p>
         </article>
       </div>

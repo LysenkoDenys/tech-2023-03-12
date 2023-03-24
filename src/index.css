@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind pages;
 
 * {
   box-sizing: border-box;
@@ -38,6 +39,12 @@ h2 {
   color: #333333;
 }
 
+.pics {
+  display: inline-block;
+  box-shadow: 2px 2px 2px #333333;
+  border-radius: 5px;
+  padding: 5px;
+}
 .pic-1 {
   height: 10rem;
   cursor: pointer;

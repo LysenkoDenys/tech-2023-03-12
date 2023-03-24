@@ -18,11 +18,13 @@ const Home = () => {
             Детальний покроковий план розрахунку (як це працює на практиці)
             представлений на сторінці "Graphics".
           </p>
-          <img
-            className="pic-1"
-            src={require("../images/h-01.png")}
-            alt="images not found"
-          />
+          <div className="pics">
+            <img
+              className="pic-1"
+              src={require("../images/h-01.png")}
+              alt="images not found"
+            />
+          </div>
         </article>
       </div>
       <div className="block">
@@ -39,11 +41,13 @@ const Home = () => {
             Детальний покроковий план розрахунку (як це працює на практиці)
             представлений на сторінці "Carts".
           </p>
-          <img
-            className="pic-1"
-            src={require("../images/h-02.png")}
-            alt="images not found"
-          />
+          <div className="pics">
+            <img
+              className="pic-1"
+              src={require("../images/h-02.png")}
+              alt="images not found"
+            />
+          </div>
         </article>
       </div>
       <div className="block">
