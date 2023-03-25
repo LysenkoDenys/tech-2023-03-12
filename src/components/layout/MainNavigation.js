@@ -22,7 +22,7 @@ const MainNavigation = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/graphics">Graphics</Link>
+            <Link to="/charts">Charts</Link>
           </li>
           <li>
             <Link to="/carts">Carts</Link>
@@ -43,6 +43,8 @@ const MainNavigation = () => {
           margin: 0px;
           padding: 0px;
           overflow: hidden;
+          top: -100%;
+          gap: 0;
         }
         .navigation ul li {
           list-style-type: none;
@@ -64,18 +66,20 @@ const MainNavigation = () => {
           .navigation ul {
             display: ${hamburgerOpen ? "inline" : "none"};
             background-color: #fcce09;
+            border-radius: 3px;
+            padding-right: 20px;
             position: fixed;
             height: auto;
             width: auto;
             top: 90px;
-            left: 6%;
+            right: 6%;
             overflow: auto;
-            z-index: -1;
+            box-shadow: 2px 2px 2px #333333;
           }
         }
         @media (max-width: 479px) {
           .navigation ul {
-            left: 3%;
+            right: 3%;
           }
         }
       `}</style>

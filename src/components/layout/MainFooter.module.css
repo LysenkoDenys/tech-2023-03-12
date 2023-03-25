@@ -94,4 +94,15 @@ a {
   text-decoration: none;
   color: #000000;
 }
+
+@media (max-width: 768px) {
+  .universe {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
 /* button======================================================= */

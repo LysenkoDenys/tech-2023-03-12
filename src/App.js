@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Graphics from "./pages/Graphics";
+import Charts from "./pages/Charts";
 import Carts from "./pages/Carts";
 import Others from "./pages/Others";
 import MainNavigation from "./components/layout/MainNavigation";
@@ -13,7 +13,7 @@ function App() {
       <MainNavigation />
       <Routes>
         <Route path="/" exact element={<Home />}></Route>
-        <Route path="/graphics" element={<Graphics />}></Route>
+        <Route path="/charts" element={<Charts />}></Route>
         <Route path="/carts" element={<Carts />}></Route>
         <Route path="/others" element={<Others />}></Route>
       </Routes>

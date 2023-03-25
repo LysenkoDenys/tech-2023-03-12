@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind pages;
 
 * {
   box-sizing: border-box;
@@ -44,14 +43,17 @@ h2 {
   box-shadow: 2px 2px 2px #333333;
   border-radius: 5px;
   padding: 5px;
+  overflow: hidden;
 }
 .pic-1 {
   height: 10rem;
   cursor: pointer;
+  display: block;
 }
-.pic-1:active {
+.pic-1:hover {
   transition: ease-in-out;
-  height: 12rem;
+  transition: 1s;
+  transform: scale(1.2);
 }
 
 article {
