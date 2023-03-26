@@ -6,7 +6,7 @@ const Home = () => {
       <h1 className="text-3xl font-bold text-center mb-3 mt-3">
         Targets and tasks for calculate equipment indicators:
       </h1>
-      <div className="block">
+      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
         <article>
           <h3 className="text-xl font-bold">
             Порядок розрахунку ПЛАНУ експлуатації наватнажувальної техніки.
@@ -22,7 +22,7 @@ const Home = () => {
           </div>
         </article>
       </div>
-      <div className="block">
+      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
         <article>
           <h3 className="text-xl font-bold">
             Порядок розрахунку ПЛАНУ потреби наватнажувальної техніки (ВІЗКІВ).
@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         </article>
       </div>
-      <div className="block">
+      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
         <article>
           <h3 className="text-xl font-bold">Other features</h3>
           <p>Інші положення.</p>

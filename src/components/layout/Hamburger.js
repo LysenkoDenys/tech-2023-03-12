@@ -20,8 +20,8 @@ const Hamburger = ({ isOpen }) => {
           z-index: 10;
         }
         .burger {
-          width: 2rem;
-          height: 0.25rem;
+          width: 1.75rem;
+          height: 0.2rem;
           border-radius: 5px;
           margin: 6px 0px 0px 0px;
           background-color: black;
