@@ -3,13 +3,9 @@ import React from "react";
 const Home = () => {
   return (
     <section>
-      <h1 className="text-2xl font-bold text-center">
+      <h1 className="text-3xl font-bold text-center mb-3 mt-3">
         Targets and tasks for calculate equipment indicators:
       </h1>
-      <h2 className="text-xl font-bold">
-        Мета: надання на ФЕС даних для графіків щодо експлуатації
-        наватнажувальної техніки.
-      </h2>
       <div className="block">
         <article>
           <h3 className="text-xl font-bold">
@@ -29,8 +25,7 @@ const Home = () => {
       <div className="block">
         <article>
           <h3 className="text-xl font-bold">
-            Порядок розрахунку ПЛАНУ експлуатації наватнажувальної техніки
-            (Візків).
+            Порядок розрахунку ПЛАНУ потреби наватнажувальної техніки (ВІЗКІВ).
           </h3>
           <p>
             Порядок розрахунку візків наведено у відповідній узгодженій

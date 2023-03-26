@@ -3,7 +3,7 @@ import React from "react";
 const Charts = () => {
   return (
     <section>
-      <h1 className="text-2xl font-bold">Charts:</h1>
+      <h1 className="text-3xl font-bold text-center mb-3 mt-3">Charts:</h1>
       <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
         <article>
           <h2 className="text-xl font-bold">
@@ -138,7 +138,7 @@ const Charts = () => {
               </p>
             </li>
           </ol>
-          <ol className="list-decimal ml-9">
+          <ol className="list-decimal ml-9 order-[4]">
             <li>
               <p>
                 В двох простих таблицях під зведеними робимо посилання** на
@@ -164,7 +164,7 @@ const Charts = () => {
               <u>Примітки:</u>
             </b>
           </p>
-          <ul>
+          <ul className="list-none ml-4">
             <li>
               <p>
                 *Файли вихідних даних мають бути розташовані і одній теці (мати
@@ -177,7 +177,7 @@ const Charts = () => {
                 оперативній зміні вхідних даних від «Замовника» (план
                 відвантаження [кг, плт, короба,], кількість магазинів) або від
                 відділу персоналу (ШЧ) можна було в найкоротші терміни
-                підтягнути і здати на ФЄС оновлені дані.
+                підтягнути і здати на ФЕС оновлені дані.
               </p>
             </li>
           </ul>

@@ -7,7 +7,7 @@ const MainFooter = () => {
       <div className={classes.logo}>
         Made with best regards by Lysenko Denys 2023
       </div>
-      <div className={classes.universe}>
+      <div className={classes.btn}>
         <span className={classes.tooltip}>+380506045095</span>
         <a href="mailto:lysenkoden@gmail.com">
           <span>Call the BATMAN</span>
