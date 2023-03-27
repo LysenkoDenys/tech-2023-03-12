@@ -69,12 +69,12 @@ const Carts = () => {
         </div>
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
-            <ol type="1">
+            <ol className="[counter-reset: list-number 3] ml-9">
               <li>
                 <p>Відкриваємо аркуш «value»:</p>
               </li>
             </ol>
-            <ol className="list-[lower-alpha] ml-24">
+            <ol className="list-[lower-alpha] ml-16">
               <li>
                 <p>
                   Копіюємо дані з файлу відвантажень від «Замовника» аркуш
@@ -134,7 +134,7 @@ const Carts = () => {
                 <p>Відкриваємо аркуш «calc»:</p>
               </li>
             </ol>
-            <ol className="list-[lower-alpha] ml-24">
+            <ol className="list-[lower-alpha] ml-16">
               <li>
                 <p>
                   В{" "}
@@ -216,7 +216,7 @@ const Carts = () => {
                 <p>Відкриваємо аркуш «pivot»:</p>
               </li>
             </ol>
-            <ol className="list-[lower-alpha] ml-24">
+            <ol className="list-[lower-alpha] ml-16">
               <li>
                 <p>
                   В зведеній таблиці «
@@ -254,7 +254,7 @@ const Carts = () => {
                 <p>Відкриваємо аркуш «weight»:</p>
               </li>
             </ol>
-            <ol className="list-[lower-alpha] ml-24">
+            <ol className="list-[lower-alpha] ml-16">
               <li>
                 <p>
                   В таблиці «
@@ -289,7 +289,7 @@ const Carts = () => {
                 <p>Відкриваємо аркуш «cart»:</p>
               </li>
             </ol>
-            <ol className="list-[lower-alpha] ml-24">
+            <ol className="list-[lower-alpha] ml-16">
               <li>
                 <p>
                   В таблиці «
@@ -332,8 +332,8 @@ const Carts = () => {
               </li>
               <li>
                 <p>
-                  Для вагових візків відповідно для кожної таблиці (7.а-7.с.)
-                  тягнемо дані з аркушу «weight».
+                  Для вагових візків відповідно для кожної таблиці (а-с) тягнемо
+                  дані з аркушу «weight».
                 </p>
               </li>
               <li>
@@ -371,7 +371,7 @@ const Carts = () => {
                 <p>Відкриваємо аркуш «platform»:</p>
               </li>
             </ol>
-            <ol className="list-[lower-alpha] ml-24">
+            <ol className="list-[lower-alpha] ml-16">
               <li>
                 <p>
                   В таблиці «
