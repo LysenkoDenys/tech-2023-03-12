@@ -5,7 +5,7 @@ const Carts = () => {
     <>
       <section>
         <h1 className="text-3xl font-bold text-center mb-3 mt-3">Carts:</h1>
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <h2 className="text-xl font-bold">
               Порядок розрахунку ПЛАНУ потреби в навантажувальній техніці
@@ -26,7 +26,7 @@ const Carts = () => {
             </ul>
           </article>
         </div>
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <p>
               <strong>Вхідні дані:</strong>
@@ -42,7 +42,7 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <p>
               <strong>Алгоритм розрахунку:</strong>
@@ -67,14 +67,14 @@ const Carts = () => {
             </ol>
           </article>
         </div>
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol type="1">
               <li>
                 <p>Відкриваємо аркуш «value»:</p>
               </li>
             </ol>
-            <ol type="a">
+            <ol className="list-[lower-alpha] ml-24">
               <li>
                 <p>
                   Копіюємо дані з файлу відвантажень від «Замовника» аркуш
@@ -127,14 +127,14 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol start="4" type="1">
               <li>
                 <p>Відкриваємо аркуш «calc»:</p>
               </li>
             </ol>
-            <ol type="a">
+            <ol className="list-[lower-alpha] ml-24">
               <li>
                 <p>
                   В{" "}
@@ -209,14 +209,14 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol start="5" type="1">
               <li>
                 <p>Відкриваємо аркуш «pivot»:</p>
               </li>
             </ol>
-            <ol type="a">
+            <ol className="list-[lower-alpha] ml-24">
               <li>
                 <p>
                   В зведеній таблиці «
@@ -247,14 +247,14 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol start="6" type="1">
               <li>
                 <p>Відкриваємо аркуш «weight»:</p>
               </li>
             </ol>
-            <ol type="a">
+            <ol className="list-[lower-alpha] ml-24">
               <li>
                 <p>
                   В таблиці «
@@ -282,14 +282,14 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol start="7" type="1">
               <li>
                 <p>Відкриваємо аркуш «cart»:</p>
               </li>
             </ol>
-            <ol type="a">
+            <ol className="list-[lower-alpha] ml-24">
               <li>
                 <p>
                   В таблиці «
@@ -364,14 +364,14 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol start="8" type="1">
               <li>
                 <p>Відкриваємо аркуш «platform»:</p>
               </li>
             </ol>
-            <ol type="a">
+            <ol className="list-[lower-alpha] ml-24">
               <li>
                 <p>
                   В таблиці «
@@ -392,7 +392,7 @@ const Carts = () => {
                     <u>Таблица2.</u>
                   </em>{" "}
                   <strong>Потреба, од.</strong>» розраховуємо потребу виходячи з
-                  нормативу на звіз (оновити у відділі персоналу).
+                  нормативу на звіз (оновити/перевірити у відділі персоналу).
                 </p>
               </li>
               <li>
@@ -427,24 +427,33 @@ const Carts = () => {
             </ol>
           </article>
         </div>
-        {/* =================================== */}
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <p>
               <strong>
                 <u>Примітки:</u>
               </strong>
             </p>
-            <p>При розрахунку рекомендовано користуватися аркушем «method».</p>
-            <p>
-              Порядок слідування РЦ і складів у плані відвантажень від
-              «Замовника» може бути змінено.
-            </p>
-            <p>
-              Також можуть бути внесені в зміну технології, які не можна
-              врахувати в рамках даної методики, тоді необхідно ввести додаткові
-              зміни і знову узгодити методику.
-            </p>
+            <ul className="list-none ml-4">
+              <li>
+                <p>
+                  При розрахунку рекомендовано користуватися аркушем «method».
+                </p>
+              </li>
+              <li>
+                <p>
+                  Порядок слідування РЦ і складів у плані відвантажень від
+                  «Замовника» може бути змінено.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Також можуть бути внесені зміни в технології, які не можна
+                  врахувати в рамках даної методики, тоді необхідно ввести
+                  додаткові зміни і знову узгодити методику.
+                </p>
+              </li>
+            </ul>
           </article>
         </div>
       </section>

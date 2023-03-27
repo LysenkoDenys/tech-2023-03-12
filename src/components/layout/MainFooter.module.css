@@ -15,7 +15,7 @@
   border-image-repeat: repeat;
   padding: 0 5%;
   margin: 2% 0;
-  box-shadow: 2px 2px 2px #333333;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   top: 0px;
 }
 
@@ -25,38 +25,23 @@
   font-weight: bold;
 }
 
-.social_media__icon {
-  width: 3rem;
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-}
-.social_media__icon:hover {
-  transform: scale(1.1);
-  box-shadow: 6px 6px 5px #333333;
-}
-.social_media__icon:active {
-  transform: scale(1.1);
-  box-shadow: 4px 4px 5px #333333;
-}
-
 /* button======================================================= */
 .btn {
   position: relative;
   background: #cecccc;
   color: #000;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
   border-radius: 5px;
   width: 150px;
   height: 40px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -104,7 +89,14 @@ svg:hover .tooltip {
 .btn:hover .tooltip::before {
   background: linear-gradient(320deg, rgb(10, 99, 184), rgb(115, 143, 236));
   color: #ffffff;
+  transform: scale(1.01);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
+.btn:active {
+  transform: scale(0.99);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -115,8 +107,8 @@ a {
     padding: 4px;
     margin: 4px;
     width: 150px;
-    height: 30px;
-    font-size: 15px;
+    height: 35px;
+    font-size: 14px;
   }
 }
 /* button======================================================= */

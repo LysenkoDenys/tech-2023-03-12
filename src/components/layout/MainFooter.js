@@ -7,17 +7,8 @@ const MainFooter = () => {
       <div className={classes.logo}>
         Made with best regards by Lysenko Denys | 2023
       </div>
-      <div>
-        <a href="https://linkedin.com/in/lysenko-denys" target="_blank">
-          <img
-            className={classes.social_media__icon}
-            src="../../images/in.png"
-            alt="in"
-          />
-        </a>
-      </div>
       <div className={classes.btn}>
-        <span className={classes.tooltip}>+380506045095</span>
+        <span className={classes.tooltip}>+380 506 045 095</span>
         <a href="mailto:lysenkoden@gmail.com">
           <span>Call the BATMAN</span>
         </a>

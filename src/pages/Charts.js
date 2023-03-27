@@ -4,7 +4,7 @@ const Charts = () => {
   return (
     <section>
       <h1 className="text-3xl font-bold text-center mb-3 mt-3">Charts:</h1>
-      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
         <article>
           <h2 className="text-xl font-bold">
             Порядок розрахунку ПЛАНУ експлуатації наватнажувальної техніки.
@@ -24,7 +24,7 @@ const Charts = () => {
           </ul>
         </article>
       </div>
-      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
         <article>
           <b>
             <p>Вхідні дані:</p>
@@ -45,7 +45,7 @@ const Charts = () => {
           </ol>
         </article>
       </div>
-      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
         <article>
           <b>
             <p>Алгоритм розрахунку:</p>
@@ -138,7 +138,7 @@ const Charts = () => {
               </p>
             </li>
           </ol>
-          <ol className="list-decimal ml-9 order-[4]">
+          <ul className="list-decimal ml-9 order-[4]">
             <li>
               <p>
                 В двох простих таблицях під зведеними робимо посилання** на
@@ -154,10 +154,10 @@ const Charts = () => {
                 відповідність РЦ у двох простих (останніх) і вихідних файлах.
               </p>
             </li>
-          </ol>
+          </ul>
         </article>
       </div>
-      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_#333333]">
+      <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
         <article>
           <p>
             <b>
