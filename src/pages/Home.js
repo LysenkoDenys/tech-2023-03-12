@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <section>
+    <section className="select-none">
       <h1 className="text-3xl font-bold text-center mb-3 mt-3">
         Targets and tasks for calculate equipment indicators:
       </h1>
@@ -12,7 +13,12 @@ const Home = () => {
             Порядок розрахунку ПЛАНУ експлуатації наватнажувальної техніки.
           </h3>
           <p>Порядок розрахунку наведено у відповідній узгодженій методиці.</p>
-          <p>Детальний покроковий план «Charts».</p>
+          <p>
+            Детальний покроковий план розрахунку (як це працює на практиці){" "}
+            <strong>
+              <Link to="/charts">«Charts»</Link>
+            </strong>
+          </p>
           <div className="pics">
             <img
               className="pic-1"
@@ -33,7 +39,10 @@ const Home = () => {
           </p>{" "}
           <p>
             Детальний покроковий план розрахунку (як це працює на практиці)
-            представлений на сторінці «Carts».
+            представлений на сторінці{" "}
+            <strong>
+              <Link to="/carts">«Carts»</Link>
+            </strong>
           </p>
           <div className="pics">
             <img
@@ -47,7 +56,15 @@ const Home = () => {
       <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
         <article>
           <h3 className="text-xl font-bold">Other features</h3>
-          <p>Інші положення.</p>
+          <p>
+            Зарезервована сторінка, яка може бути пристосована під інші запити,
+            або носити інформативний характер.
+            <p>
+              <strong>
+                <Link to="/others">«Others»</Link>
+              </strong>
+            </p>
+          </p>
         </article>
       </div>
     </section>

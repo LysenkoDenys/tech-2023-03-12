@@ -3,7 +3,7 @@ import React from "react";
 const Carts = () => {
   return (
     <>
-      <section>
+      <section className="select-none">
         <h1 className="text-3xl font-bold text-center mb-3 mt-3">Carts:</h1>
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
@@ -69,9 +69,9 @@ const Carts = () => {
         </div>
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
-            <ol className="[counter-reset: list-number 3] ml-9">
+            <ol className="ml-4">
               <li>
-                <p>Відкриваємо аркуш «value»:</p>
+                <p> 3. Відкриваємо аркуш «value»:</p>
               </li>
             </ol>
             <ol className="list-[lower-alpha] ml-16">
@@ -129,9 +129,9 @@ const Carts = () => {
 
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
-            <ol start="4" type="1">
+            <ol className="ml-4">
               <li>
-                <p>Відкриваємо аркуш «calc»:</p>
+                <p>4. Відкриваємо аркуш «calc»:</p>
               </li>
             </ol>
             <ol className="list-[lower-alpha] ml-16">
@@ -211,9 +211,9 @@ const Carts = () => {
 
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
-            <ol start="5" type="1">
+            <ol className="ml-4">
               <li>
-                <p>Відкриваємо аркуш «pivot»:</p>
+                <p>5. Відкриваємо аркуш «pivot»:</p>
               </li>
             </ol>
             <ol className="list-[lower-alpha] ml-16">
@@ -249,9 +249,9 @@ const Carts = () => {
 
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
-            <ol start="6" type="1">
+            <ol className="ml-4">
               <li>
-                <p>Відкриваємо аркуш «weight»:</p>
+                <p>6. Відкриваємо аркуш «weight»:</p>
               </li>
             </ol>
             <ol className="list-[lower-alpha] ml-16">
@@ -284,9 +284,9 @@ const Carts = () => {
 
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
-            <ol start="7" type="1">
+            <ol className="ml-4">
               <li>
-                <p>Відкриваємо аркуш «cart»:</p>
+                <p>7. Відкриваємо аркуш «cart»:</p>
               </li>
             </ol>
             <ol className="list-[lower-alpha] ml-16">
@@ -366,9 +366,9 @@ const Carts = () => {
 
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
-            <ol start="8" type="1">
+            <ol className="ml-4">
               <li>
-                <p>Відкриваємо аркуш «platform»:</p>
+                <p>8. Відкриваємо аркуш «platform»:</p>
               </li>
             </ol>
             <ol className="list-[lower-alpha] ml-16">
