@@ -49,7 +49,10 @@ const Others = () => {
         <div>
           <article>
             <p className="text-center">
-              Special thanks to Kostyak Julia for inspire me to build this site.
+              <strong>
+                Special thanks to Kostyak Julia for inspire me to build this
+                site.
+              </strong>
             </p>
           </article>
         </div>
