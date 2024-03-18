@@ -10,7 +10,7 @@ const Others = () => {
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <p>
-              Даний проект розроблено за допомогою технології React JS, тож
+              Даний проєкт розроблено за допомогою технології React JS, тож
               після завантаження він більше не потребує інтернету для навігації
               в своїх межах.
             </p>
@@ -50,8 +50,8 @@ const Others = () => {
           <article>
             <p className="text-center">
               <strong>
-                Special thanks to Kostyak Julia for inspire me to build this
-                site.
+                Special thanks to Kostyak Julia for inspire me to build this web
+                application.
               </strong>
             </p>
           </article>
