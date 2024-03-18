@@ -1,4 +1,5 @@
 import React from 'react';
+import Chart from '../components/layout/Chart';
 
 const Others = () => {
   return (
@@ -37,7 +38,7 @@ const Others = () => {
         </div>
         <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)] flex justify-center items-center">
           <article>
-            <img src={require('../images/chart.png')} alt="our department" />
+            <Chart />
             <p className="text-center">
               <strong>
                 Survival in technical department tends to zero, but the show
