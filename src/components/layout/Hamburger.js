@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react';
 
 const Hamburger = ({ isOpen }) => {
-  console.log(isOpen); //
   return (
     <>
       <div className="hamburger">
@@ -29,14 +28,14 @@ const Hamburger = ({ isOpen }) => {
           transition: all 0.3s linear;
         }
         .burger1 {
-          transform: ${isOpen ? "rotate(45deg)" : "rotate(0)"};
+          transform: ${isOpen ? 'rotate(45deg)' : 'rotate(0)'};
         }
         .burger2 {
-          transform: ${isOpen ? "translateX(100%)" : "translateX(0)"};
+          transform: ${isOpen ? 'translateX(100%)' : 'translateX(0)'};
           opacity: ${isOpen ? 0 : 1};
         }
         .burger3 {
-          transform: ${isOpen ? "rotate(-45deg)" : "rotate(0)"};
+          transform: ${isOpen ? 'rotate(-45deg)' : 'rotate(0)'};
         }
       `}</style>
     </>

@@ -12,9 +12,9 @@
 }
 
 body {
-  font-family: "Calibri", sans-serif;
+  font-family: 'Calibri', sans-serif;
   margin: 3% 10%;
-  background: url("./images/bg-01.png");
+  background: url('./images/bg-01.png');
 }
 
 @media (max-width: 992px) {

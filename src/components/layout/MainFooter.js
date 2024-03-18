@@ -1,11 +1,11 @@
-import React from "react";
-import classes from "./MainFooter.module.css";
+import React from 'react';
+import classes from './MainFooter.module.css';
 
 const MainFooter = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.logo}>
-        Made with best regards by Lysenko Denys | 2023
+        {`Made with best regards by Lysenko Denys | ${new Date().getFullYear()}`}
       </div>
       <div className={classes.btn}>
         <span className={classes.tooltip}>+380 506 045 095</span>
