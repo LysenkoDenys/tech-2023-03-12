@@ -35,7 +35,7 @@
   border-radius: 5px;
   width: 150px;
   height: 40px;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -102,7 +102,7 @@ a {
   color: #000000;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .btn {
     padding: 3px;
     margin: 3px;
@@ -119,5 +119,5 @@ a {
     height: 35px;
     font-size: 10px;
   }
-}
+} */
 /* button======================================================= */
