@@ -20,8 +20,8 @@ const Others = () => {
               роботи сайту (на будь-яких мобільних пристроях).
             </p>
             <p className="mt-4">
-              <strong>NOTE:</strong> hold on and evolve yourself! (c) some smart
-              people
+              <strong>NOTE:</strong> hold on and improve yourself! (c) some
+              smart people
             </p>
           </article>
         </div>

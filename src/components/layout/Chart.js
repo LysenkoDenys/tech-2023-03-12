@@ -1,6 +1,6 @@
 import React from 'react';
 import { Chart as ChartJS, defaults, plugins } from 'chart.js/auto';
-import { Bar, Doughnut, Line } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 import sourceData from '../../data/sourceData.json';
 
 defaults.maintainAspectRatio = true;
@@ -14,6 +14,13 @@ defaults.plugins.title.color = 'black';
 defaults.plugins.legend.display = false;
 
 const Chart = () => {
+  //Kryvobock O.S. tracking=======================
+  const date = new Date();
+  const startDay = new Date(2021, 0, 21, 9);
+  const daysOfWork = Math.floor((date - startDay) / (24 * 60 * 60 * 1000));
+  sourceData[4].value = daysOfWork;
+  //==============================================
+
   return (
     <div>
       <Bar
@@ -56,6 +63,17 @@ const Chart = () => {
           //   padding: {
           //     left: 0,
           //     right: 0,
+          //   },
+          // },
+          // datalabels: {
+          //   anchor: 'center', // Position of the labels (start, end, center, etc.)
+          //   align: 'center', // Alignment of the labels (start, end, center, etc.)
+          //   color: 'blue', // Color of the labels
+          //   font: {
+          //     weight: 'bold',
+          //   },
+          //   formatter: function (value, context) {
+          //     return value; // Display the actual data value
           //   },
           // },
         }}
