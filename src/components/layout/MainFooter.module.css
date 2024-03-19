@@ -104,11 +104,20 @@ a {
 
 @media (max-width: 768px) {
   .btn {
-    padding: 4px;
-    margin: 4px;
-    width: 150px;
+    padding: 3px;
+    margin: 3px;
+    max-width: 130px;
     height: 35px;
     font-size: 14px;
+  }
+}
+@media (max-width: 479px) {
+  .btn {
+    padding: 2px;
+    margin: 2px;
+    max-width: 100px;
+    height: 35px;
+    font-size: 10px;
   }
 }
 /* button======================================================= */
