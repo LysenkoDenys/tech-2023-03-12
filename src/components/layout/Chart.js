@@ -1,6 +1,7 @@
 import React from 'react';
 import { Chart as ChartJS, defaults, plugins } from 'chart.js/auto';
 import { Bar } from 'react-chartjs-2';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
 import sourceData from '../../data/sourceData.json';
 
 defaults.maintainAspectRatio = true;
@@ -12,6 +13,8 @@ defaults.plugins.title.font.size = 20;
 defaults.plugins.title.color = 'black';
 
 defaults.plugins.legend.display = false;
+
+// Chart.register(ChartDataLabels);
 
 const Chart = () => {
   //Kryvobock O.S. tracking=======================
@@ -65,17 +68,17 @@ const Chart = () => {
           //     right: 0,
           //   },
           // },
-          // datalabels: {
-          //   anchor: 'center', // Position of the labels (start, end, center, etc.)
-          //   align: 'center', // Alignment of the labels (start, end, center, etc.)
-          //   color: 'blue', // Color of the labels
-          //   font: {
-          //     weight: 'bold',
-          //   },
-          //   formatter: function (value, context) {
-          //     return value; // Display the actual data value
-          //   },
-          // },
+          datalabels: {
+            anchor: 'center', // Position of the labels (start, end, center, etc.)
+            align: 'center', // Alignment of the labels (start, end, center, etc.)
+            color: 'blue', // Color of the labels
+            font: {
+              weight: 'bold',
+            },
+            formatter: function (value, context) {
+              return value; // Display the actual data value
+            },
+          },
         }}
       />
     </div>
