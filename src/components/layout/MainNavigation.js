@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import Hamburger from "./Hamburger";
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Hamburger from './Hamburger';
 
-import classes from "./MainNavigation.module.css";
+import classes from './MainNavigation.module.css';
 
 const MainNavigation = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -19,16 +19,24 @@ const MainNavigation = () => {
       <nav className="navigation">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={toggleHamburger}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/charts">Charts</Link>
+            <Link to="/charts" onClick={toggleHamburger}>
+              Charts
+            </Link>
           </li>
           <li>
-            <Link to="/carts">Carts</Link>
+            <Link to="/carts" onClick={toggleHamburger}>
+              Carts
+            </Link>
           </li>
           <li>
-            <Link to="/others">Others</Link>
+            <Link to="/others" onClick={toggleHamburger}>
+              Others
+            </Link>
           </li>
         </ul>
         <div className="hamburger" onClick={toggleHamburger}>
@@ -64,7 +72,7 @@ const MainNavigation = () => {
           }
 
           .navigation ul {
-            display: ${hamburgerOpen ? "inline" : "none"};
+            display: ${hamburgerOpen ? 'inline' : 'none'};
             background-color: #fcce09;
             border-radius: 3px;
             padding-right: 20px;
