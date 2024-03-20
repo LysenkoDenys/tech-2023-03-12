@@ -30,6 +30,13 @@
   }
 }
 
+.logo a:hover,
+.logo a:active,
+.logo a.active {
+  color: white;
+  transition: 0.3s ease;
+}
+
 /* button======================================================= */
 .btn {
   position: relative;

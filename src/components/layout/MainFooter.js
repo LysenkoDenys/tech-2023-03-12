@@ -5,8 +5,22 @@ const MainFooter = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.logo}>
-        <p>Made with best regards</p>
-        <p>{`by Lysenko Denys | 2023-${new Date().getFullYear()}`}</p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/lysenko-denys/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Made with best regards
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/lysenko-denys/"
+            target="_blank"
+            rel="noreferrer"
+          >{`by Lysenko Denys | 2023-${new Date().getFullYear()}`}</a>
+        </p>
       </div>
       <div className={classes.btn}>
         <span className={classes.tooltip}>+380 506 045 095</span>
