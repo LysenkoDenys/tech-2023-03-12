@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -14,15 +14,17 @@ const Home = () => {
           </h3>
           <p>Порядок розрахунку наведено у відповідній узгодженій методиці.</p>
           <p>
-            Детальний покроковий план розрахунку (як це працює на практиці){" "}
+            Детальний покроковий план розрахунку (як це працює на практиці){' '}
             <strong>
-              <Link to="/charts">«Charts»</Link>
+              <Link to="/charts" className="underline text-blue-700">
+                «Charts»
+              </Link>
             </strong>
           </p>
           <div className="pics">
             <img
               className="pic-1"
-              src={require("../images/h-01.png")}
+              src={require('../images/h-01.png')}
               alt="images not found"
             />
           </div>
@@ -36,18 +38,20 @@ const Home = () => {
           <p>
             Порядок розрахунку візків наведено у відповідній узгодженій
             методиці.
-          </p>{" "}
+          </p>
           <p>
             Детальний покроковий план розрахунку (як це працює на практиці)
-            представлений на сторінці{" "}
+            представлений на сторінці{' '}
             <strong>
-              <Link to="/carts">«Carts»</Link>
+              <Link to="/carts" className="underline text-blue-700">
+                «Carts»
+              </Link>
             </strong>
           </p>
           <div className="pics">
             <img
               className="pic-1"
-              src={require("../images/h-02.png")}
+              src={require('../images/h-02.png')}
               alt="images not found"
             />
           </div>
@@ -59,11 +63,11 @@ const Home = () => {
           <p>
             Зарезервована сторінка, яка може бути пристосована під інші запити,
             або носити інформативний характер.
-            <p>
-              <strong>
-                <Link to="/others">«Others»</Link>
-              </strong>
-            </p>
+            <strong>
+              <Link to="/others" className="underline text-blue-700">
+                «Others»
+              </Link>
+            </strong>
           </p>
         </article>
       </div>
