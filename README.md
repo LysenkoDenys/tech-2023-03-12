@@ -2,8 +2,6 @@
 
 ### The application to support my mates (https://tech-dept.vercel.app/) build in React JS.
 
-Sample:
-
 <h5>This app allows you:</h5>
 <ul>
 <li>make plan charts to economic department</li>
@@ -19,6 +17,7 @@ Sample:
 <p>This project uses next API:</p>
 <ul>
 <li>⭐https://www.chartjs.org/docs/latest/</li>
+<li>⭐https://chartjs-plugin-datalabels.netlify.app/</li>
 </ul>
 
 <p>Build with TailwindCSS and totally adaptive to most popular devices</p>
