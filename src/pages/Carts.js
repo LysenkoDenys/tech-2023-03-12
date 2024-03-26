@@ -5,7 +5,7 @@ const Carts = () => {
     <>
       <section className="select-none">
         <h1 className="text-3xl font-bold text-center mb-3 mt-3">Carts:</h1>
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <h2 className="text-xl font-bold">
               Порядок розрахунку ПЛАНУ потреби в навантажувальній техніці
@@ -26,7 +26,7 @@ const Carts = () => {
             </ul>
           </article>
         </div>
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <p>
               <strong>Вхідні дані:</strong>
@@ -42,7 +42,7 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <p>
               <strong>Алгоритм розрахунку:</strong>
@@ -67,7 +67,7 @@ const Carts = () => {
             </ol>
           </article>
         </div>
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol className="ml-4">
               <li>
@@ -127,7 +127,7 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol className="ml-4">
               <li>
@@ -209,7 +209,7 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol className="ml-4">
               <li>
@@ -247,7 +247,7 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol className="ml-4">
               <li>
@@ -282,7 +282,7 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol className="ml-4">
               <li>
@@ -364,7 +364,7 @@ const Carts = () => {
           </article>
         </div>
 
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <ol className="ml-4">
               <li>
@@ -427,7 +427,7 @@ const Carts = () => {
             </ol>
           </article>
         </div>
-        <div className="bg-[#d6d7da] rounded-[5px] mb-4 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
+        <div className="bg-[#d6d7da] rounded-[5px] mb-4 p-1 text-[18px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] hover:bg-[#f3f4f5] hover:shadow-[2px_2px_2px_rgba(0,0,0,0.5)]">
           <article>
             <p>
               <strong>
