@@ -1,35 +1,65 @@
 /* eslint-disable no-restricted-globals */
 
-const CACHE_NAME = 'my-cache';
+const CACHE_NAME = 'my-cache-v1';
 const urlsToCache = ['/', 'index.html', 'static/js/bundle.js'];
 
 self.addEventListener('install', (event) => {
-  console.log('installing SW');
+  console.log('Service Worker: Installing');
+
   event.waitUntil(
     caches
       .open(CACHE_NAME)
       .then((cache) => {
+        console.log('Service Worker: Caching Files');
         return cache.addAll(urlsToCache);
       })
-      .then(() => self.skipWaiting())
+      .then(() => {
+        console.log('Service Worker: Installation completed');
+        return self.skipWaiting();
+      })
+      .catch((error) => {
+        console.error('Service Worker: Installation failed', error);
+      })
   );
 });
 
 self.addEventListener('activate', (event) => {
-  console.log('activating SW');
-  event.waitUntil(self.clients.claim());
+  console.log('Service Worker: Activating');
+
+  event.waitUntil(
+    caches
+      .keys()
+      .then((cacheNames) => {
+        return Promise.all(
+          cacheNames.map((cache) => {
+            if (cache !== CACHE_NAME) {
+              console.log('Service Worker: Clearing Old Cache', cache);
+              return caches.delete(cache);
+            }
+          })
+        );
+      })
+      .then(() => {
+        console.log('Service Worker: Activation completed');
+        return self.clients.claim();
+      })
+  );
 });
 
 self.addEventListener('fetch', (event) => {
-  console.log(`fetching ${event.request.url}`);
+  console.log('Service Worker: Fetching', event.request.url);
+
   event.respondWith(
-    caches
-      .match(event.request)
-      .then((response) => {
-        if (response) {
-          return response; // return cached response if found
-        }
-        return fetch(event.request).then((response) => {
+    caches.match(event.request).then((response) => {
+      if (response) {
+        console.log('Service Worker: Cache hit for', event.request.url);
+        return response; // return cached response if found
+      }
+
+      console.log('Service Worker: Cache miss for', event.request.url);
+
+      return fetch(event.request)
+        .then((response) => {
           if (
             !response ||
             response.status !== 200 ||
@@ -45,11 +75,11 @@ self.addEventListener('fetch', (event) => {
           });
 
           return response;
+        })
+        .catch(() => {
+          // Fallback for failed network requests
+          return caches.match('index.html');
         });
-      })
-      .catch(() => {
-        // Fallback in case of a network error and resource is not cached
-        return caches.match('index.html');
-      })
+    })
   );
 });
