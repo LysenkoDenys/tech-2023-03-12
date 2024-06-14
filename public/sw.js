@@ -1,13 +1,7 @@
 /* eslint-disable no-restricted-globals */
 
 const CACHE_NAME = 'my-cache';
-const urlsToCache = [
-  '/',
-  'index.html',
-  'static/js/bundle.js',
-  '/static/js/main.chunk.js',
-  '/static/js/0.chunk.js',
-];
+const urlsToCache = ['/', 'index.html', 'static/js/bundle.js'];
 
 self.addEventListener('install', (event) => {
   console.log('installing SW');
