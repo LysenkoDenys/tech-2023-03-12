@@ -1,16 +1,7 @@
 /* eslint-disable no-restricted-globals */
 
 const CACHE_NAME = 'my-cache';
-const urlsToCache = [
-  '/',
-  'index.html',
-  // 'static/css/main.ddf4afa8.css',
-  // 'static/js/main.54cd1718.js',
-  // 'static/media/2021-11-15-2.31a24c4f285e134d9853.jpg',
-  // 'static/media/bg-01.d909c4d18bde432222e3.png',
-  // 'static/media/h-01.b55750694ac8e72ab2c8.png',
-  // 'h-02.d841a972af327501b510.png',
-];
+const urlsToCache = ['/', 'index.html', 'images/2021-11-15-2.jpg'];
 
 self.addEventListener('install', (event) => {
   console.log('installing SW');
